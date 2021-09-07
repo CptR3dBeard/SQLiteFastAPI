@@ -1,4 +1,4 @@
-# Author: Lane Nash
+# Author: CptR3dBeard
 #
 # Description: create a database that allows user to create tables,
 # entries as well as find them and update.
