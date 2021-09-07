@@ -1,4 +1,4 @@
-# Author: Lane Nash
+# Author: CptR3dBeard
 # put is modifier
 # get is reciveing input
 # post is sending
@@ -32,10 +32,4 @@ async def add(value1: str, value2: str):
 @app.post("/update/{col}/{old}/{new}")
 async def modify(col, old, new):
     await update(col, old, new)
-    return {"test": "test"}
-
-
-@app.get("/display")
-async def display():
-    await find_table()
     return {"test": "test"}
